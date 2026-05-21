@@ -466,10 +466,9 @@ Be realistic and specific. Do not recommend generic schools — match the career
           "Content-Type": "application/json",
           "anthropic-version": "2023-06-01",
           "anthropic-dangerous-direct-browser-access": "true",
-          "x-api-key": import.meta.env.VITE_ANTHROPIC_API_KEY,
         },
         body: JSON.stringify({
-          model: "claude-sonnet-4-6",
+          model: "claude-sonnet-4-20250514",
           max_tokens: 2000,
           messages: [{ role: "user", content: buildPrompt() }]
         })
@@ -499,7 +498,7 @@ Be realistic and specific. Do not recommend generic schools — match the career
         <div className="header">
           <div className="header-icon">🎓</div>
           <div>
-            <h1>College Match Finder</h1>
+            <h1>College Fit Finder</h1>
             <p>AI-powered reach analysis using LLM-as-Judge + RAG matching</p>
           </div>
         </div>
