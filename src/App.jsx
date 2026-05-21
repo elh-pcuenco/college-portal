@@ -499,7 +499,7 @@ Be realistic and specific. Do not recommend generic schools — match the career
         <div className="header">
           <div className="header-icon">🎓</div>
           <div>
-            <h1>College Fit Finder</h1>
+            <h1>College Match Finder</h1>
             <p>AI-powered reach analysis using LLM-as-Judge + RAG matching</p>
           </div>
         </div>
